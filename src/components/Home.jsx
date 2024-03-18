@@ -3,6 +3,9 @@ import { AiFillLinkedin,AiFillGithub,AiFillInstagram } from 'react-icons/ai'
 import profilepic from '../assets/profilepicB.png'
 import notebookL from '../assets/notebookL.png'
 import notebookM from '../assets/notebookM.png'
+import resume from '../assets/resume.pdf'
+
+
 
 
 const home = () => {
@@ -19,8 +22,8 @@ const home = () => {
                     Do yo need help in frontend development ? dont hesitate to contact me !
                 </p>
                 <div>
-                    <a href="#" title="" class="shadow-2xl mr-4 inline-flex item-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110" role="button" >download cv </a>
-                    <a href="#" title="" class="inline-flex items-center px-6 py-4 mt-8font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110 " role="button"> View Work</a>
+                    <a href={resume} download="resume" title="" class="shadow-2xl mr-4 inline-flex item-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110" role="button" >download cv </a>
+                    <a href="https://github.com/Tarun-127/JobPortifolio.git" title="" class="inline-flex items-center px-6 py-4 mt-8font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110 " role="button"> View Work</a>
                 </div>
             <div class="flex flex-row justify-between text-white p-8 max-w-[500px] mx-auto">
                 <a href="#" className='transition-all duration-200 hover:scale-110 cursor-pointer '> <AiFillLinkedin className='w-[70px] h-auto'/></a>
