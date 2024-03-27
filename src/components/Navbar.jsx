@@ -23,9 +23,9 @@ const Navbar = () => {
             <li className='p-2'> <NavLink to="/contact" activeclassname="text-black"> Contact </NavLink></li>
           </ul>
 
-          <div onClick={handleNav} className='block md:hidden text-white z-40'>
+       <div onClick={handleNav} className='block md:hidden text-white z-40'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
-        </div>
+  </div>
 
 
 
@@ -33,10 +33,10 @@ const Navbar = () => {
         :'fixed left-[-100%]'}>
           <h1 className='text-3xl gray-primary-color m-4'> T.K.Ravva</h1>
           <ul className='p-8 text-4xl ml-20'>
-          <li className='p-2'> <NavLink to="/" activeclassname="selected"> Home </NavLink></li>
-            <li className='p-2'> <NavLink to="/" activeclassname="text-black"> About </NavLink></li>
-            <li className='p-2'> <NavLink to="/" activeclassname="text-black"> Portfolio </NavLink></li>
-            <li className='p-2'> <NavLink to="/"activeclassname="text-black"> Contact </NavLink></li>
+          <li className='p-2'> <NavLink to="/home" activeclassname="selected"> Home </NavLink></li>
+            <li className='p-2'> <NavLink to="/about" activeclassname="text-black"> About </NavLink></li>
+            <li className='p-2'> <NavLink to="/portfolio" activeclassname="text-black"> Portfolio </NavLink></li>
+            <li className='p-2'> <NavLink to="/contact"activeclassname="text-black"> Contact </NavLink></li>
           </ul>
         </div>
 

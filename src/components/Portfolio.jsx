@@ -22,15 +22,15 @@ const Portfolio = () => {
             </a>
 
           <div class="flex flex-col col-span-4 p-4 mx-auto my-auto">
-              <h2 class="text-grey-200 font-bold text-xl leading-10"> 
-                project #1
+              <h2 class="text-grey-200 font-bold text-xl leading-10 "> 
+              Liquidity Management Systems
               </h2>
               <p class="text-grey-400">
-              khsgwi hjhduw hjsish
-              </p>
+              Engaged in Agile SDLC, including Scrum, for React.js frontend development. Collaborated on bug troubleshooting, ensured responsive design, cross-browser compatibility, and created customizable UI components. Proficient in React.js concepts, providing feedback in code reviews and addressing testing efficiently.
+            </p>
           </div>
 
-          <div class="flex flex-row justify-between text-white gap-4 mx-auto pb-4 ">
+          <div class="flex flex-row justify-between text-white gap-[-2] mx-auto pb-4 ">
             <AiFillGithub className='w-[45px] h-auto '/>
             <AiFillChrome className='w-[45px] h-auto '/>
           </div>
@@ -46,14 +46,18 @@ const Portfolio = () => {
 
           <div class="flex flex-col col-span-4 p-4 mx-auto my-auto">
               <h2 class="text-grey-200 font-bold text-xl leading-10"> 
-                project #1
+               My Portifolio
               </h2>
               <p class="text-grey-400">
-              khsgwi hjhduw hjsish
-              </p>
+              Crafted a sleek and responsive portfolio utilizing Tailwind CSS to showcase professional achievements and skills effectively.
+          
+              Employed Tailwind CSS to create a modern and dynamic portfolio platform, demonstrating proficiency in front-end development.
+           
+              Integrated Tailwind CSS framework to develop a polished and visually appealing portfolio, emphasizing attention to detail and design aesthetics.
+                            </p>
           </div>
 
-          <div class="flex flex-row justify-between text-white gap-4 mx-auto pb-4 ">
+          <div class="flex flex-row justify-between text-white gap-[-2] mx-auto pb-4 ">
             <AiFillGithub className='w-[45px] h-auto '/>
             <AiFillChrome className='w-[45px] h-auto '/>
           </div>
@@ -69,14 +73,14 @@ const Portfolio = () => {
 
           <div class="flex flex-col col-span-4 p-4 mx-auto my-auto">
               <h2 class="text-grey-200 font-bold text-xl leading-10"> 
-                project #1
+                Employee database
               </h2>
               <p class="text-grey-400">
-              khsgwi hjhduw hjsish
+              A RESTful API in Node.js with Express is a web service that adheres to the principles of Representational State Transfer (REST). It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources, typically exchanging data in JSON format. Express simplifies API development with its routing and middleware capabilities.
               </p>
           </div>
 
-          <div class="flex flex-row justify-between text-white gap-4 mx-auto pb-4 ">
+          <div class="flex flex-row justify-between text-white gap-[-2] mx-auto pb-4 ">
             <AiFillGithub className='w-[45px] h-auto '/>
             <AiFillChrome className='w-[45px] h-auto '/>
           </div>
@@ -92,14 +96,14 @@ const Portfolio = () => {
 
           <div class="flex flex-col col-span-4 p-4 mx-auto my-auto">
               <h2 class="text-grey-200 font-bold text-xl leading-10"> 
-                project #1
+          Employee Database 
               </h2>
               <p class="text-grey-400">
               khsgwi hjhduw hjsish
               </p>
           </div>
 
-          <div class="flex flex-row justify-between text-white gap-4 mx-auto pb-4 pr-4">
+          <div class="flex flex-row justify-between text-white gap-[-2] mx-auto pb-4 pr-4">
             <AiFillGithub className='w-[45px] h-auto '/>
             <AiFillChrome className='w-[45px] h-auto '/>
           </div>
